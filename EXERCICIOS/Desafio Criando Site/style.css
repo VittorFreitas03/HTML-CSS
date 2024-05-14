@@ -146,6 +146,25 @@ main a:hover{
     color: white;
 }
 
+.video{
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+
+    position: relative;
+    padding-bottom: 59%;
+    
+}
+
+.video > iframe{
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
 .pequena{
     max-width: 350px;
     display: block;
