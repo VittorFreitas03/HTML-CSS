@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;          
+            border: 5px solid black;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        nav > a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #assuntos > p {
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+
+        #historia{
+            background-color: rgb(228, 224, 224);
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        aside{
+            background-color: rgb(119, 118, 118);
+        }
+
+        
+    </style>
+<body>
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+            <a href="https://www.youtube.com/@corinthians" target="_blank">Menu</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p> esportes Politica Tecnologia </p>
+        </section>
+
+        <section id="historia">
+            <article>
+                    <h2>Historia do Corinthians</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus aliquid tenetur placeat quas eligendi. Ipsum, ab. Non velit optio unde ipsa, quisquam quod asperiores harum officia omnis eos reprehenderit.</p>
+                <aside>
+                    <p>Texto escrito por vittor</p>
+                </aside>                    
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido por vittor</p>
+    </footer>
+</body>
+</html>
