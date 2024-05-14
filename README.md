@@ -4,4 +4,4 @@
  fazendo teste do curso em video
 
 
-<a href="https://vittorfreitas03.github.io/HTML-CSS/EXECERCICIOS/Desafio Criando Site/android">Home</a>
+<a href="https://vittorfreitas03.github.io/HTML-CSS/EXERCICIOS/Desafio Criando Site/android">Home</a>
