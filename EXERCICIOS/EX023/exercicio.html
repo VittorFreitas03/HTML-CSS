@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption{
+            background-color: black;
+            color: white;
+            padding: 10px;
+           
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            border-collapse: collapse;
+            border: solid 2px black;
+            background-color: gray;
+            color: white;
+
+        }
+
+        th{
+            border: solid 1px black;
+            padding: 5px;
+            
+        }
+
+        td{
+            border: solid 1px black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+<body>
+    <h1>uso de tabelas</h1>
+
+    <table>
+        <caption>População por estado</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
+            </tr>           
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">23000</td>
+            </tr>
+
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">45000</td>
+            </tr>
+
+            <tr>
+                <td>mato grosso</td>
+                <td class="num">50000</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr scope="row">
+            <th>total</th>
+            <td class="num">118000</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
