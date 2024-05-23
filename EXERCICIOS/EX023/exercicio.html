@@ -13,6 +13,7 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            position: relative;
         }
 
         caption{
@@ -32,6 +33,12 @@
             background-color: gray;
             color: white;
 
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray; 
         }
 
         th{
@@ -89,8 +96,12 @@
             <td class="num">118000</td>
             </tr>
 
+            
+
         </tfoot>
+
     </table>
-    
+
+
 </body>
 </html>
